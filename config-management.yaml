@@ -7,4 +7,4 @@ spec:
     syncRepo: https://github.com/Roopa-Sri3/config-repo.git
     syncBranch: main
     policyDir: .
-    secretType: none
+    secretType: token
