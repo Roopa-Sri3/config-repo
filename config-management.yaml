@@ -1,0 +1,10 @@
+apiVersion: configmanagement.gke.io/v1
+kind: ConfigManagement
+metadata:
+  name: config-management
+spec:
+  git:
+    syncRepo: https://github.com/Roopa-Sri3/config-repo.git
+    syncBranch: main
+    policyDir: .
+    secretType: none
